@@ -1,11 +1,11 @@
-eureka:
-  instance:
-    prefer-ip-address: true
-  client:
-    register-with-eureka: true
-    fetch-registry: true
-    service-url:
-      defaultZone: ${EUREKA_SERVER_ADDRESS:http://service-registry:8762/eureka}
+# eureka:
+#   instance:
+#     prefer-ip-address: true
+#   client:
+#     register-with-eureka: true
+#     fetch-registry: true
+#     service-url:
+#       defaultZone: ${EUREKA_SERVER_ADDRESS:http://service-registry:8762/eureka}
 
 spring:
   zipkin:
